@@ -1,3 +1,2 @@
-
-def write_upper_line(line):
+def set_menu(options):
     pass
