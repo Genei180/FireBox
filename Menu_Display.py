@@ -67,8 +67,10 @@ zeug = menu(["Scanen","Wissen"])
 
 zeug.display()
 
-if input("V?") == "":
+import time
+while 1==1:
     zeug.forward()
+    time.sleep(1)
 
 #wenn wir knöpfe einsparen wollen, können wir auch nur nach unten gehen:
 #   Cola -> Fanta -> Wasser -> Sprite -> Cola -> Fanta -> ...
