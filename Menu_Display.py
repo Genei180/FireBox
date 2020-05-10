@@ -63,6 +63,13 @@ class menu():
     
 getränke = menu(['Wasser','Sprudel','Fanta','Cola','Apfelsaft','Bier','Schnaps','Pepsi'])
 
+zeug = menu(["Scanen","Wissen"])
+
+zeug.display()
+
+if input("V?") == "":
+    zeug.forward()
+
 #wenn wir knöpfe einsparen wollen, können wir auch nur nach unten gehen:
 #   Cola -> Fanta -> Wasser -> Sprite -> Cola -> Fanta -> ...
 
